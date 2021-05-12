@@ -1,0 +1,38 @@
+body {
+    background-color: #282828;
+    font-family: monospace;
+    color: chartreuse;
+    font-weight: bold;
+    font-size: 112.5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h1 {
+    color: yellow;
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+h2 {
+    color: cyan;
+    font-weight: bolder;
+    font-size:200%;
+}
+
+h3 {
+    color: #aaddff;
+    font-weight: bolder;
+    font-size:125%;
+}
+
+.description {
+    color: #ff2222;
+    font-size: 1.5em;
+}
+
+a {
+    color: #bbddff
+}
+
+a:visited {color: #ffaaff}
