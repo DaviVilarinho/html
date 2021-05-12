@@ -3,7 +3,6 @@ body {
     font-family: monospace;
     color: chartreuse;
     font-weight: bold;
-    font-size: 112.5%;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -11,19 +10,16 @@ body {
 h1 {
     color: yellow;
     font-weight: bolder;
-    font-size: 300%;
 }
 
 h2 {
     color: cyan;
     font-weight: bolder;
-    font-size:200%;
 }
 
 h3 {
     color: #aaddff;
     font-weight: bolder;
-    font-size:125%;
 }
 
 .description {
