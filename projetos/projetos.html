@@ -1,10 +1,85 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8"/>
         <title>Projetos do Vilarinho</title>
-
+        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+        <link rel="stylesheet" href="../main_page.css" />
+        <meta name="title" content="Projetos do Vilarinho">
+        <meta name="description" content="Projetos variados em devops, automação, estatística, backend e outros que já fiz.">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://vilarinho.link/projetos/projetos.html">
+        <meta property="og:title" content="Projetos do Vilarinho">
+        <meta property="og:description" content="Projetos variados em devops, automação, estatística, backend e outros que já fiz.">
+        <meta property="og:image" content="https://vilarinho.link/assets/logo.png">
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://vilarinho.link/projetos/projetos.html">
+        <meta property="twitter:title" content="Projetos do Vilarinho">
+        <meta property="twitter:description" content="Projetos variados em devops, automação, estatística, backend e outros que já fiz.">
+        <meta property="twitter:image" content="https://vilarinho.link/assets/logo.png">
     </head>
     <body>
+        <h1>Projetos Vilarinho</h1>
+        <div style="text-align: center;"><p>Projetos variados em devops, automação, estatística, backend e outros que já fiz.</p></div>
+        <ul>
+            <li><a href="https://vilarinho.link/nina/">nina</a>: Nina Is Not an API</li>
+                <p><a href="https://github.com/vilarinux/nina">source</a></p>
+                <p>Criei o <i>nina</i> como uma forma de automatizar análises de ações que me tomam muito tempo.
+                Depois de entender um pouquinho de finanças percebi que vale mais aportar mais vezes do que ter gigantescos rendimentos,
+            embora ganhar mais não faça problemas. Assim, <i>nina</i> eu fiz como uma luva, agora eu posso 
+            perder menos tempo em analisar uma empresa e focar ou em seus fundamentos "menos matemáticos", complexos ou 
+            em outros projetos/estudos que podem me render mais no futuro.</p>
 
+            <p><i>nina</i> tem esse nome porque é autoexplicativo. Não é uma API. Mas parece.</p>
+
+            <p>Eu consigo ainda fazer análises avançadas reutilizando os dados que ela me devolve, sem cair
+            em limitações de requests/min ou refazer tudo.</p>
+
+            <p>Feita em python, <i>nina</i> emite requests programados pelo crontab para ser executado semanalmente
+            de forma que eu possa ter um pouco menos de delay temporal. Em seguida ela parseia os json resultados e 
+            transforma-os em dados úteis e organizados (estimativas diferentes, preço por lucro, etc). Finalmente ela 
+            entrega um arquivo .json <a>que fica aqui no site!</a></p>
+
+            <p>Planejo fazer <i>nina</i> também guardar em bancos de dados e quem sabe implementar um frontend
+            com visualização de dados, e quiçá <i>nina</i> vire <i>niyaa</i> (Niyaa Is Yet Another API uwu)</p>
+
+            <li>                    
+                <a href="www.github.com/vilarinux/syncConfigAnsible">syncConfigAnsible</a>
+                <p>Este é um projeto que tenho em Ansible de forma que quando eu formate meus 
+                    computadores não precise demorar horas configurando até ele ter os programas e 
+                    infraestrutura básica que sempre mudo.
+                </p>
+
+                <p>
+                    Podia ser um script? Sim, podia. Mas um script não é nem divertido, nem escala bem
+                    como um ansible, além de que consigo ter acesso a log de erros, múltiplas máquinas 
+                    simultaneamente configuradas e garantir infraestrutura básica e dotfiles, o que um script "pararia".
+                </p>
+                <p>Parte do aprendizado de Ansible.</p>
+            </li>
+
+            <li>
+                <a href="https://vilarinho.link">Este site</a>
+
+                <p><a href="https://github.com/vilarinux/html">source</a></p>
+            </li>
+
+            <li>
+                <p><a href="https://github.com/vilarinux/r-stonks">R-stonks</a>: um precursor talvez mais bem explicado
+                da <a href="https://github.com/vilarinux/nina/blob/main/findata.py">nina/findata.py</a>. Manualmente usava o r-stonks, automaticamente não preciso mais.</p>
+            </li>
+        </ul>
+        <footer style="font-size: smaller;">
+            <hr>
+            <p>Sou o Davi Vilarinho, estudante de computação com foco em infraestrutura e devops.</p>
+            <p><a href="https://vilarinho.link">vilarinho.link</a></p>
+            <p><a href="https://github.com/vilarinux">github</a></p>
+            <p><a href="https://www.linkedin.com/in/davi-ramos-vilarinho/">linkedin</a></p>
+        </footer>
     </body>
 </html>

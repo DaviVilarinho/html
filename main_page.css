@@ -3,13 +3,14 @@ body {
     font-family: monospace;
     color: chartreuse;
     font-weight: bold;
-    margin-left: 34%;
-    margin-right: 34%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 h1 {
     color: yellow;
     font-weight: bolder;
+    text-align: center;
 }
 
 h2 {
@@ -29,6 +30,14 @@ h3 {
 
 a {
     color: #bbddff
+}
+
+p {
+    color: #22ff22;
+}
+
+ul {
+    color: #ffba22;
 }
 
 a:visited {color: #ffaaff}
